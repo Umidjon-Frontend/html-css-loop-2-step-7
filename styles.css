@@ -1,0 +1,118 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #c9f8fe;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.articles{
+    width: 100%;
+    max-width: 1000px;
+    margin: 60px auto;
+    display: flex;
+    box-shadow: 0 0 10px #0000008a;
+}
+.section-header span{
+    font-size: 20px;
+}
+.articles-press{
+    width: 450px;
+    height: 568px;
+    background:#000000 url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 220px 0 0 117px;
+    z-index: 999;
+}
+.press-title{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.press-text{
+    color: #fff;
+    margin-bottom: 24px;
+}
+.press-btn{
+    width: 138px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6aa796c9;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.press-btn:hover{
+    background-color: #6aa796;
+}
+.press-btn-img{
+    margin-right: 10px;
+}
+
+.articles-section{
+    width: 550px;
+    height: 568px;
+    background-color: #fff;
+    padding: 40px;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.section-years{
+    width: 465px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+.years-item{
+    color: #0000005d;
+    margin-right: 20px;
+    font-size: 19.5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+div.activ, .years-item:hover{
+    color: #000000;
+}
+
+.posts-item{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.posts-item img{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.item-text{
+    margin: 0 auto 0 0;
+    font-size: 14px;
+}
+.item-number{
+    font-size: 40px;
+    margin-right: 10px;
+    font-weight: 100;
+}
+.item-data{
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+.data-month, .data-year{
+    text-transform: uppercase;
+    font-weight: bold;
+}
